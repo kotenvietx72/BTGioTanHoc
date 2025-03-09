@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTGioTanHoc", "BTGioTanHoc\BTGioTanHoc.csproj", "{57E693A7-521C-4983-BDAA-A36305F0FFCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57E693A7-521C-4983-BDAA-A36305F0FFCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57E693A7-521C-4983-BDAA-A36305F0FFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57E693A7-521C-4983-BDAA-A36305F0FFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57E693A7-521C-4983-BDAA-A36305F0FFCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39E85D48-7AEB-47B0-9056-0592F72D26C1}
+	EndGlobalSection
+EndGlobal

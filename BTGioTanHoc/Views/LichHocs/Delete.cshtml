@@ -1,0 +1,72 @@
+﻿@model BTGioTanHoc.Models.LichHoc
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>LichHoc</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NgayHoc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayHoc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TietBatDau)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TietBatDau)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TietKetThuc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TietKetThuc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GioTanHoc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GioTanHoc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LopHocPhan.MaLHP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LopHocPhan.MaLHP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhongHoc.TenPhong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhongHoc.TenPhong)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

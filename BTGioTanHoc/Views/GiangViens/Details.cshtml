@@ -1,0 +1,26 @@
+﻿@model BTGioTanHoc.Models.GiangVien
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>GiangVien</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.HoTenGiangVien)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HoTenGiangVien)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaGiangVien }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
